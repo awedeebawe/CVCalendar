@@ -34,7 +34,6 @@
 		45D9D8FD1C50073F006673B2 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E21C50073F006673B2 /* CVRange.swift */; };
 		45D9D8FE1C50073F006673B2 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E31C50073F006673B2 /* CVScrollDirection.swift */; };
 		45D9D8FF1C50073F006673B2 /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E41C50073F006673B2 /* CVSelectionType.swift */; };
-		45D9D9001C50073F006673B2 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E51C50073F006673B2 /* CVSet.swift */; };
 		45D9D9011C50073F006673B2 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E61C50073F006673B2 /* CVShape.swift */; };
 		45D9D9021C50073F006673B2 /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D9D8E71C50073F006673B2 /* CVWeekdaySymbolType.swift */; };
 /* End PBXBuildFile section */
@@ -80,7 +79,6 @@
 		45D9D8E21C50073F006673B2 /* CVRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVRange.swift; sourceTree = "<group>"; };
 		45D9D8E31C50073F006673B2 /* CVScrollDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVScrollDirection.swift; sourceTree = "<group>"; };
 		45D9D8E41C50073F006673B2 /* CVSelectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSelectionType.swift; sourceTree = "<group>"; };
-		45D9D8E51C50073F006673B2 /* CVSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSet.swift; sourceTree = "<group>"; };
 		45D9D8E61C50073F006673B2 /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
 		45D9D8E71C50073F006673B2 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +191,6 @@
 				45D9D8D11C50073F006673B2 /* CVCalendarManager.swift */,
 				45D9D8DA1C50073F006673B2 /* CVCalendarViewAppearance.swift */,
 				45D9D8E11C50073F006673B2 /* CVDate.swift */,
-				45D9D8E51C50073F006673B2 /* CVSet.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -331,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D9D9001C50073F006673B2 /* CVSet.swift in Sources */,
 				45D9D8F71C50073F006673B2 /* CVCalendarViewDelegate.swift in Sources */,
 				45D9D8FE1C50073F006673B2 /* CVScrollDirection.swift in Sources */,
 				45D9D8F21C50073F006673B2 /* CVCalendarView.swift in Sources */,
@@ -479,7 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CVCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gameapp.CVCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CVCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gameapp.CVCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
