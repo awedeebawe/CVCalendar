@@ -186,17 +186,20 @@ public final class CVCalendarView: UIView {
     public init() {
         super.init(frame: CGRectZero)
         hidden = true
+        print("init");
     }
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
         hidden = true
+        print("initFrame");
     }
 
     /// IB Initialization
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         hidden = true
+        print("initDecoder");
     }
 }
 
